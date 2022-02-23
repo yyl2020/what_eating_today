@@ -11,12 +11,12 @@ export const IS_SHOW_RESTART = true;
 // 首页配置
 export const homeConfig = {
   // 标题
-  title: '520送礼抽奖',
+  title: '今天吃什么',
   // 留言，数组的每一项代表一行
   messages: [
-    { key: 'a', wording: '这是第一行文案', },
-    { key: 's', wording: '这是第二行文案', },
-    { key: 'd', wording: '然后，这里是第三行文案', },
+    { key: 'a', wording: '又到了吃饭时间', },
+    { key: 's', wording: '吃饱了才有力气减肥', },
+    { key: 'd', wording: '看看今天吃什么', },
   ],
   // 最终解释权归属人
   owner: 'XXX',
@@ -31,12 +31,12 @@ export const homeConfig = {
 // 图片放在 public/images 中，建议是正方形，否则影响视觉体验
 // name 是礼物的全称；alias 是礼物的简称（用来显示在抽奖方格里）
 export const gifts = [
-  { key: 'q', name: 'Dior双飞套装', alias: 'Dior双飞', image: '/images/1.png',  description: '「经典迷人色彩，彰显奢华魅力」' },
-  { key: 'w', name: '腾讯视频终身VIP', alias: 'VIP', image: '/images/2.png',  description: '“为你承包一辈子的 VIP”' },
-  { key: 'e', name: '兰蔻小黑瓶套装', alias: '小黑瓶套装', image: '/images/3.png',  description: '「强维稳，快修护」' },
-  { key: 'r', name: '520红包', alias: '520', image: '/images/6.png',  description: '“想给你唱一百首情歌”' },
-  { key: 't', name: 'Dior星空套装', alias: 'Dior星空', image: '/images/5.png',  description: '「百变唇妆，精美雕琢」' },
-  { key: 'y', name: '1314红包', alias: '1314', image: '/images/6.png',  description: '“从今往后，我都会在你旁边”' },
-  { key: 'u', name: 'UR购物券：¥1,000', alias: 'UR', image: '/images/7.png',  description: '“UR！买！”' },
-  { key: 'i', name: 'Dyson美发套装', alias: '戴森', image: '/images/8.png',  description: '「不同造型需求，全面满足」' },
+  { key: 'q', name: '饿肚肚', alias: '饿肚肚', image: '/images/1.jpeg',  description: '再苦不能苦我的小肚肚' },
+  { key: 'w', name: '豪华炸鸡套餐', alias: '炸鸡！炸鸡！', image: '/images/2.png',  description: '“炸鸡！炸鸡！”' },
+  { key: 'e', name: '麻辣火锅', alias: '人间帅锅，不如火锅', image: '/images/3.png',  description: '「人间帅锅，不如火锅」' },
+  { key: 'r', name: '高档西餐', alias: '高档西餐', image: '/images/4.png',  description: '“只有这优雅的红酒，才能配得上我这精致的妆容~”' },
+  { key: 't', name: '特色炒菜', alias: '特色炒菜', image: '/images/5.png',  description: '「糖醋里脊、辣子鸡、水煮肉片」' },
+  { key: 'y', name: '高热量奶茶', alias: '高热量奶茶', image: '/images/6.png',  description: '“给姐姐来一杯卡布奇诺”' },
+  { key: 'u', name: '精致甜品', alias: '精致甜品', image: '/images/7.png',  description: '“生活本来就这么苦了，吃一点甜甜的把！”' },
+  { key: 'i', name: '大口烤肉', alias: '大口烤肉', image: '/images/8.jpeg',  description: '「如果有什么烦恼，那就吃一顿烤肉，如果不行那就吃两顿」' },
 ];

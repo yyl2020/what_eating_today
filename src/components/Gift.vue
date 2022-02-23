@@ -1,6 +1,6 @@
 <template>
   <div class="gift-component full-screen">
-    <h1>恭喜你中奖啦！</h1>
+    <h1>今天就吃它啦！</h1>
     <div class="gift-image-area">
       <img :src="giftImageUrl" alt="" class="gift-image">
     </div>
