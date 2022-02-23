@@ -32,11 +32,11 @@ export const homeConfig = {
 // name 是礼物的全称；alias 是礼物的简称（用来显示在抽奖方格里）
 export const gifts = [
   { key: 'q', name: '饿肚肚', alias: '饿肚肚', image: '/images/1.jpeg',  description: '再苦不能苦我的小肚肚' },
-  { key: 'w', name: '豪华炸鸡套餐', alias: '炸鸡！炸鸡！', image: '/images/2.png',  description: '“炸鸡！炸鸡！”' },
-  { key: 'e', name: '麻辣火锅', alias: '人间帅锅，不如火锅', image: '/images/3.png',  description: '「人间帅锅，不如火锅」' },
-  { key: 'r', name: '高档西餐', alias: '高档西餐', image: '/images/4.png',  description: '“只有这优雅的红酒，才能配得上我这精致的妆容~”' },
-  { key: 't', name: '特色炒菜', alias: '特色炒菜', image: '/images/5.png',  description: '「糖醋里脊、辣子鸡、水煮肉片」' },
+  { key: 'w', name: '豪华炸鸡套餐', alias: '炸鸡！炸鸡！', image: '/images/2.jpg',  description: '“炸鸡！炸鸡！”' },
+  { key: 'e', name: '麻辣火锅', alias: '人间帅锅，不如火锅', image: '/images/3.jpg',  description: '「人间帅锅，不如火锅」' },
+  { key: 'r', name: '高档西餐', alias: '高档西餐', image: '/images/4.jpg',  description: '“只有这优雅的红酒，才能配得上我这精致的妆容~”' },
+  { key: 't', name: '特色炒菜', alias: '特色炒菜', image: '/images/5.jpg',  description: '「糖醋里脊、辣子鸡、水煮肉片」' },
   { key: 'y', name: '高热量奶茶', alias: '高热量奶茶', image: '/images/6.png',  description: '“给姐姐来一杯卡布奇诺”' },
-  { key: 'u', name: '精致甜品', alias: '精致甜品', image: '/images/7.png',  description: '“生活本来就这么苦了，吃一点甜甜的把！”' },
-  { key: 'i', name: '大口烤肉', alias: '大口烤肉', image: '/images/8.jpeg',  description: '「如果有什么烦恼，那就吃一顿烤肉，如果不行那就吃两顿」' },
+  { key: 'u', name: '精致甜品', alias: '精致甜品', image: '/images/7.jpg',  description: '“生活本来就这么苦了，吃一点甜甜的把！”' },
+  { key: 'i', name: '大口烤肉', alias: '大口烤肉', image: '/images/8.jpg',  description: '「如果有什么烦恼，那就吃一顿烤肉，如果不行那就吃两顿」' },
 ];
